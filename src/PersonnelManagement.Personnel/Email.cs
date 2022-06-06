@@ -31,7 +31,7 @@ public class Email
     /// </summary>
     /// <param name="email"></param>
     /// <exception cref="InvalidDataException"></exception>
-    public void Change([NotNull] string email)
+    public void Change(string email)
     {
         Value = Validate(email)
             ? new MailAddress(email)

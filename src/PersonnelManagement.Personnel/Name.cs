@@ -1,49 +1,39 @@
 ﻿namespace Wingmann.PersonnelManagement.Personnel;
 
 /// <summary>
-/// 
+/// Implements name.
 /// </summary>
 public class Name
 {
     /// <summary>
     /// 
     /// </summary>
-    public string First { get; set; }
+    public string First { get; private set; }
 
     /// <summary>
     /// 
     /// </summary>
-    public string Middle { get; set; }
+    public string Middle { get; private set; }
 
     /// <summary>
     /// 
     /// </summary>
-    public string Last { get; set; }
+    public string Last { get; private set; }
 
     /// <summary>
     /// 
     /// </summary>
     /// <param name="first"></param>
     /// <param name="last"></param>
-    public Name(string first, string last)
-    {
-        First = first;
-        Middle = string.Empty;
-        Last = last;
-    }
-    
+    public Name(string first, string last) => ChangeFull(first, last);
+
     /// <summary>
     /// 
     /// </summary>
     /// <param name="first"></param>
     /// <param name="middle"></param>
     /// <param name="last"></param>
-    public Name(string first, string middle, string last)
-    {
-        First = first;
-        Middle = middle;
-        Last = last;
-    }
+    public Name(string first, string middle, string last) => ChangeFull(first, middle, last);
 
     /// <summary>
     /// 
