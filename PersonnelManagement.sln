@@ -1,14 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandHandler", "src\CommandHandler\CommandHandler.csproj", "{F043232D-1762-4A1B-BC4B-BE122114414A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonnelManagement.CommandHandler", "src\PersonnelManagement.CommandHandler\PersonnelManagement.CommandHandler.csproj", "{F043232D-1762-4A1B-BC4B-BE122114414A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employment", "src\Employment\Employment.csproj", "{EA41E655-D91F-47FB-9057-3429D4B16222}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonnelManagement.Employment", "src\PersonnelManagement.Employment\PersonnelManagement.Employment.csproj", "{EA41E655-D91F-47FB-9057-3429D4B16222}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company", "src\Company\Company.csproj", "{59955627-A9EF-4254-8002-EF7D6AEAD8ED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonnelManagement.Company", "src\PersonnelManagement.Company\PersonnelManagement.Company.csproj", "{59955627-A9EF-4254-8002-EF7D6AEAD8ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Personnel", "src\Personnel\Personnel.csproj", "{2AAD57A0-2CBC-4A0D-B910-70BC1E2FAE3C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonnelManagement.Personnel", "src\PersonnelManagement.Personnel\PersonnelManagement.Personnel.csproj", "{2AAD57A0-2CBC-4A0D-B910-70BC1E2FAE3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cli", "src\Cli\Cli.csproj", "{C1628F1A-1A97-46CA-929C-5C8FB51DF470}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonnelManagement.Cli", "src\PersonnelManagement.Cli\PersonnelManagement.Cli.csproj", "{C1628F1A-1A97-46CA-929C-5C8FB51DF470}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

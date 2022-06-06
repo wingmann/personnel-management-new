@@ -5,7 +5,7 @@ using System.Text.RegularExpressions;
 namespace Wingmann.PersonnelManagement.Personnel;
 
 /// <summary>
-/// 
+/// Implements email address.
 /// </summary>
 public class Email
 {
@@ -21,12 +21,9 @@ public class Email
     /// <exception cref="InvalidDataException"></exception>
     public Email([NotNull] string email)
     {
-        if (Validate(email))
-        {
-            Value = new MailAddress(email);
-        }
-
-        throw new InvalidDataException();
+        Value = Validate(email)
+            ? new MailAddress(email)
+            : throw new ArgumentException("Incorrect email.", nameof(email));
     }
 
     /// <summary>
@@ -36,12 +33,9 @@ public class Email
     /// <exception cref="InvalidDataException"></exception>
     public void Change([NotNull] string email)
     {
-        if (Validate(email))
-        {
-            Value = new MailAddress(email);
-        }
-
-        throw new InvalidDataException();
+        Value = Validate(email)
+            ? new MailAddress(email)
+            : throw new ArgumentException("Incorrect email.", nameof(email));
     }
 
     /// <summary>
